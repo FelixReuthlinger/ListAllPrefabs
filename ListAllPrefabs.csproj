@@ -7,8 +7,8 @@
         <ProjectGuid>{F5D7B6C6-C13D-4B48-B472-E7854E5141E0}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ModTemplate</RootNamespace>
-        <AssemblyName>ModTemplate</AssemblyName>
+        <RootNamespace>ListAllPrefabs</RootNamespace>
+        <AssemblyName>ListAllPrefabs</AssemblyName>
         <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>10</LangVersion>
@@ -80,7 +80,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="ModTemplatePlugin.cs" />
+        <Compile Include="ListAllPrefabsPlugin.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
